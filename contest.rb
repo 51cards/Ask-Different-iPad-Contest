@@ -61,7 +61,7 @@ user_ids.keys.each do |user|
   top35_score = array_sum(posts)
   median_score = array_sum(posts.first(20).last(5))/5.0
   
-  user_scores << [user, top35_score, median_score, total_score]
+  user_scores << [user, top35_score, median_score, total_score, post_scores.length]
   
   count += 1; sleep 0.2
 end
@@ -73,7 +73,7 @@ user_scores.sort! do |a, b|
 end
 
 user_scores.each do |user|
-  write("%20s: #{user[1]} (%1.2f) (#{user[3]})" % [user_ids[user[0]], user[2]])
+  write("%20s: #{user[1]} (%1.2f) (#{user[3]}/#{user[4]})" % [user_ids[user[0]], user[2]])
 end
 
 puts "requests left: #{data['quota_remaining']} of #{data['quota_max']}"

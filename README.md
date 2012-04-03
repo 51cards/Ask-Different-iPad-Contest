@@ -22,34 +22,34 @@ Invoke the script like so:
 
 This will produce output similar to what's below:
 
-             gentmatt: 224 (5.00) (363)
-               stuffe: 177 (3.40) (237)
-       Mathias Bynens: 174 (4.00) (246)
-             Daniel L: 171 (3.80) (191)
-             jtbandes: 168 (4.00) (205)
-          Kyle Cronin: 167 (4.00) (197)
-               *bmike: 159 (3.80) (209)
-        Adam Eberbach: 157 (3.00) (194)
-               Ian C.: 151 (4.00) (158)
-           Adam Davis: 145 (4.00) (208)
-              *jaberg: 128 (2.20) (128)
-             Senseful: 123 (3.00) (185)
-           *jmlumpkin: 122 (3.20) (128)
-                 *AJ.: 93 (2.20) (93)
-             *Michiel: 92 (2.00) (101)
-               *Hippo: 88 (2.00) (88)
-    *Graeme Hutchison: 85 (2.20) (82)
-          *penguinrob: 83 (3.00) (83)
-              *KatieK: 81 (2.20) (81)
-               *Moshe: 80 (2.00) (79)
-         *Chris W Rea: 79 (3.60) (79)
-                *R.M.: 73 (2.00) (73)
-      *Andrew Larsson: 72 (4.20) (72)
-         *Timothy M-H: 69 (2.00) (69)
-              *patrix: 18 (3.20) (18)
-         *Steve Moser: 12 (2.40) (12)
-               *illep: 11 (2.20) (11)
-               *jt703: 11 (2.20) (11)
+             gentmatt: 224 (5.00) (363/114)
+               stuffe: 177 (3.40) (237/96)
+       Mathias Bynens: 174 (4.00) (246/105)
+             Daniel L: 171 (3.80) (191/49)
+             jtbandes: 168 (4.00) (205/76)
+          Kyle Cronin: 167 (4.00) (197/55)
+               *bmike: 159 (3.80) (209/79)
+        Adam Eberbach: 157 (3.00) (194/86)
+               Ian C.: 152 (4.00) (160/47)
+           Adam Davis: 145 (4.00) (208/113)
+              *jaberg: 128 (2.20) (128/41)
+             Senseful: 123 (3.00) (185/114)
+           *jmlumpkin: 122 (3.20) (128/52)
+                 *AJ.: 93 (2.20) (93/29)
+             *Michiel: 92 (2.00) (101/75)
+               *Hippo: 88 (2.00) (88/36)
+    *Graeme Hutchison: 85 (2.20) (82/38)
+          *penguinrob: 83 (3.00) (83/29)
+              *KatieK: 81 (2.20) (81/35)
+               *Moshe: 80 (2.00) (79/47)
+         *Chris W Rea: 79 (3.60) (79/26)
+                *R.M.: 74 (2.20) (74/30)
+      *Andrew Larsson: 72 (4.20) (72/22)
+         *Timothy M-H: 70 (2.00) (70/40)
+              *patrix: 18 (3.20) (18/8)
+         *Steve Moser: 12 (2.40) (12/6)
+               *illep: 11 (2.20) (11/5)
+               *jt703: 11 (2.20) (11/5)
 
 The leftmost column is the username. Some usernames have been shortened to fit, such as "Timothy M-H" for the user "Timothy Mueller-Harder". Users with an asterisk preceding their name have completed level 2 but not level 3. Users without the asterisk have completed both levels.
 
@@ -57,7 +57,7 @@ The second column is the sum of the top 35 posts.
 
 The third column, in parenthesis, is the mean of the middle 5 posts. This is useful to know what the "spread" of scores of the posts are - users with a high sum but low central mean have lower-scoring posts, but with a few that are very high-scoring.
 
-The fourth column is the sum of all the posts made with the time period.
+The fourth column is the sum of all the posts made with the time period over the total number of posts.
 
 The script will also output the same data to the results folder in the project with a date-stamped file. Note that earlier versions of the script produced data with fewer columns and users, so this is why earlier saved results appear to be missing some data.
 
